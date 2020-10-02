@@ -1,0 +1,5 @@
+/public/itk/
+/node_modules
+/.idea
+/public/*.js
+/public/*.js.map

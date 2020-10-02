@@ -1,0 +1,36 @@
+{
+  "name": "clearpoint-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:webpack": "webpack --progress --colors -p",
+    "build:rollup": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "itk": "^13.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-wasm": "^5.1.0",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.1.1",
+    "expose-loader": "^1.0.0",
+    "rollup": "^2.28.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.0.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}

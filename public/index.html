@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- Input selector -->
+<div>
+    <label>Select DICOM file series or DICOM file:</label>
+    <input name="inputFile" type="file" multiple>
+</div>
+
+<!-- File information -->
+<textarea readonly name="fileInformation">File information...</textarea>
+
+<!-- Javascript -->
+<script type="text/javascript" src="./rollup.js"></script>
+<script>
+  console.log(index);
+  let outputTextArea = document.querySelector('textarea')
+  document.querySelector('input')
+      .addEventListener('change', e => {
+        index.outputFileInformation(outputTextArea, e)
+      });
+</script>
+</body>
+</html>
